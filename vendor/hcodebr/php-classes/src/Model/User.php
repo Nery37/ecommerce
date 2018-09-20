@@ -84,6 +84,7 @@ public static function save(){
 	":nrphone"=>$this->getnrphone(),
 	":inadmin"=>$this->getinadmin()
 ));
+
 	$this->setData($results[0]);
 }
 
