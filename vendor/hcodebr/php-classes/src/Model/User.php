@@ -42,7 +42,7 @@ public static function login($login, $password){
 
 }
 
-public static function verifyLogin($inademin = true){
+public static function verifyLogin($inadmin = true){
 
 	if(
 		!isset($_SESSION[User::SESSION])
@@ -51,7 +51,7 @@ public static function verifyLogin($inademin = true){
 		||
 		!(int)$_SESSION[User::SESSION]["iduser"] > 0
 		||
-		(bool)$_SESSION[User::SESSION]["indamin"] !== $inademin
+		(bool)$_SESSION[User::SESSION]["inadmin"] !== $inadmin
 		)
 	{
 		header("Location: /admin/login");

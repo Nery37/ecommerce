@@ -13,12 +13,12 @@ class Model{
 
 	switch ($method) {
 			case "get":
-				return $this->values["fieldName"];
-				break;
-			
-			default:
-				$this->values["fieldName"] = $args[0];
-				break;
+				return $this->values[$fieldName];
+			break;
+
+			case "set":
+				$this->values[$fieldName] = $args[0];
+			break;
 		}	
 
 	}
