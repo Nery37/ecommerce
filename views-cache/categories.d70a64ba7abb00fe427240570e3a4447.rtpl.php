@@ -27,7 +27,7 @@
                 <thead>
                   <tr>
                     <th style="width: 10px">#</th>
-                    <th>{category.descategory}</th>
+                    <th>Nome da Categoria</th>
                     <th style="width: 140px">&nbsp;</th>
                   </tr>
                 </thead>
