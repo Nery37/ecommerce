@@ -11,7 +11,7 @@ class Product extends Model {
 
 
 
-public static function listALL(){
+public static function listAll(){
 
 	$sql = new Sql();
 
